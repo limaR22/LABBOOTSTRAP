@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - TASKAPP</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Bom dia! &#128075;</h1>
+        <div class="d-flex justify-content-center mt-3">
+            <button class="btn btn-primary mr-2" onclick="window.location.href='perfil.html'">Editar Perfil</button>
+            <button class="btn btn-secondary mr-2" onclick="window.location.href='editar_tarefas.html'">Editar Tarefas</button>
+            <button class="btn btn-danger" onclick="window.location.href='index.html'">Terminar Sessão</button>
+        </div>
+        <div class="text-center mt-5">
+            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="Logo do perfil" class="rounded-circle" style="width: 150px;">
+        </div>
+        <h2 class="mt-4">As minhas tarefas:</h2>
+        <table class="table mt-3">
+            <thead>
+                <tr>
+                    <th scope="col">Tarefa</th>
+                    <th scope="col">Data</th>
+                    <th scope="col">Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fazer o Lab 1 de PW </td>
+                    <td>14-03-2024</td>
+                    <td><span>&#9997;</span></td>
+                </tr>
+                <tr>
+                    <td>Fazer o Lab 2 de PW </td>
+                    <td>04-04-2024</td>
+                    <td><span>&#9997;</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
